@@ -4,49 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>THE OBSIDIAN ESTATE | Private Asset Showroom</title>
-    
-    <script type="module" src="https://unpkg.com/x-frame-bypass"></script>
-    <script src="https://unpkg.com/@ungap/custom-elements-builtin"></script>
-
     <style>
-        /* Black background to match your brand immediately */
-        body, html { 
-            margin: 0; 
-            padding: 0; 
-            height: 100%; 
-            overflow: hidden; 
-            background-color: #000; 
-        }
-
+        body, html { margin: 0; padding: 0; height: 100%; overflow: hidden; background: #000; }
         iframe {
             position: absolute;
             top: 0;
             left: 0;
             width: 100%;
-            /* This 'crops' the bottom 55px to hide the Dorik promotion badge */
+            /* This hides the badge perfectly */
             height: calc(100% + 55px); 
             border: none;
-        }
-
-        /* Loading text in case of slow internet */
-        #loading-text {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            color: #D4AF37; /* Champagne Gold */
-            font-family: 'serif';
-            font-size: 14px;
-            letter-spacing: 2px;
-            z-index: -1; /* Sits behind the site */
         }
     </style>
 </head>
 <body>
-
-    <div id="loading-text">ESTABLISHING SECURE CONNECTION...</div>
-
-    <iframe is="x-frame-bypass" src="https://wandering-constanta-ixsfjkm2.dcms.site/"></iframe>
-
+    <iframe src="https://wandering-constanta-ixsfjkm2.dcms.site/"></iframe>
 </body>
 </html>
